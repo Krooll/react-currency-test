@@ -1,5 +1,6 @@
 import { convertPLNToUSD } from "../convertPLNToUSD";
 
+
 describe('ConvertPLNtoUSD', () => {
   it('should return proper value when good input', () => {
     expect(convertPLNToUSD(1)).toBe('$0.29');
