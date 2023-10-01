@@ -37,5 +37,4 @@ describe('Component CurrencyForm', () => {
         cleanup()
       }  
     });
-  
 });
